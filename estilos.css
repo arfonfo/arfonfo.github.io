@@ -58,7 +58,8 @@ a {
 
 header {
     background: url(MayCoquetaMod.jpg);
-    height: 100vh;
+    height: auto;
+    max-width: 100%;
     background-size: cover;
 }
 
