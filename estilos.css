@@ -59,7 +59,11 @@ a {
 header {
     background: url(MayCoquetaMod.jpg);
     height: 100vh;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    bacground-attachment: fixed;
+    
 }
 
 .contenedor {
