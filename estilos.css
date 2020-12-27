@@ -59,7 +59,7 @@ a {
 header {
     background: url(MayCoquetaMod.jpg);
     height: 100vh;
-    background-size: contain;
+    background-size: 100%;
 }
 
 .contenedor {
