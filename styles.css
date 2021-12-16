@@ -4,5 +4,5 @@ body {
     text-align: center;
     margin-top: 300px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-direction: rtl;
+    writing-mode: horizontal-rl;
 }
