@@ -1,112 +1,106 @@
-@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
 
 body {
-	background-color: #000;
-	font-weight: bold;
-	font-size: 8em;
-	font-family: Ultra;
-	margin: 150px;
+    background-color: #000;
+    font-weight: bold;
+    font-size: 8em;
+    font-family: Ultra;
+    margin: 150px;
 }
+
 
 .alfon {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	max-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 200px;
 }
+
 
 @keyframes fontGrow {
-	0% {
-		transform: scaleY(1);
-	}
-	50% {
-		transform: scaleY(2);
-	}
-	100% {
-		transform: scaleY(1);
-	}
+    0% { transform: scaleY(1)}
+    50% { transform: scaleY(2)}
+    100% { transform: scaleY(1)}
 }
 
+
 .alfon-letters {
-	animation-name: fontGrow;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	transform-origin: top;
-	transition-timing-function: ease-in-out;
+    animation-name: fontGrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transition-timing-function: ease-in-out;
 }
 
 .letter-a {
-	color: lightblue;
+    color: lightblue;
 }
 
 .letter-l {
-	color: lightcoral;
-	animation-delay: 1s;
+    color: lightcoral; 
+    animation-delay: 1s;
 }
 
 .letter-f {
-	color: lightseagreen;
+    color: lightseagreen;
 }
 
 .letter-o {
-	color: plum;
-	animation-delay: 1s;
+    color: plum;
+    animation-delay: 1s;
 }
 
 .letter-n {
-	color: aquamarine;
+    color: aquamarine;
 }
+
+
+
+
+
 
 .alfon-B {
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
+
 
 @keyframes fontGrowReverse {
-	0% {
-		transform: scaleY(2);
-	}
-	50% {
-		transform: scaleY(1);
-	}
-	100% {
-		transform: scaleY(2);
-	}
+    0% { transform: scaleY(2)}
+    50% { transform: scaleY(1)}
+    100% { transform: scaleY(2)}
+    
 }
+
 
 .alfon-letters-B {
-	animation-name: fontGrowReverse;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	transform-origin: bottom;
-	transition-timing-function: ease-in-out;
+    animation-name: fontGrowReverse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transition-timing-function: ease-in-out;
 }
 
+
 .letter-a-B {
-	color: aquamarine;
+    color: aquamarine;
 }
 
 .letter-l-B {
-	color: plum;
-	animation-delay: 1s;
+    color: plum;
+    animation-delay: 1s;
 }
 
 .letter-f-B {
-	color: lightcoral;
+    color: lightcoral;
 }
 
 .letter-o-B {
-	color: lightseagreen;
-	animation-delay: 1s;
+    color: lightseagreen;
+    animation-delay: 1s; 
 }
 
 .letter-n-B {
-	color: lightblue;
-}
-
-@media screen and (max-width:600px) {
-	body {
-		font-size: 4em;
-		margin: 0;
-	}
+    color: lightblue;
 }
