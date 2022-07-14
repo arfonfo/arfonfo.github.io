@@ -104,3 +104,11 @@ body {
 .letter-n-B {
     color: lightblue;
 }
+
+@media screen and (max-width:600px) {
+    body{
+        font-size: 4em;
+        margin:0;
+    }
+
+}
